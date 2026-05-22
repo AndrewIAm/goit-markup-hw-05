@@ -54,7 +54,7 @@
       <section id="hero" class="hero-body">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-button">Order Service</button>
+          <button type="button" class="main-button">Order Service</button>
         </div>
       </section>
 
@@ -458,7 +458,76 @@
             </li>
           </ul>
         </div>
+        <div>
+          <p class="block-text">Social media</p>
+        </div>
       </div>
     </footer>
+
+    <div class="backdrop">
+      <div class="form-class">
+        <button class="form-close" type="button">X</button>
+        <p class="form-description">
+          Leave your contacts and we will call you back
+        </p>
+        <form>
+          <div class="input-wrapper">
+            <label for="form-name" class="label-input">Name</label>
+            <input
+              type="text"
+              id="form-name"
+              class="input-field"
+              name="username"
+              required
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="form-phone" class="label-input">Phone</label>
+            <input
+              type="tel"
+              id="form-phone"
+              class="input-field"
+              name="phone"
+              required
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="form-email" class="label-input">Email</label>
+            <input
+              type="email"
+              id="form-email"
+              class="input-field"
+              name="email"
+              required
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="form-comment" class="label-input">Comment</label>
+            <textarea
+              id="form-comment"
+              class="input-textarea"
+              name="comment"
+              rows="4"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="input-wrapper">
+            <input
+              type="checkbox"
+              id="form-checkbox"
+              class="checkbox-field"
+              name="form-checkbox"
+            />
+            <label for="form-checkbox" class="label-input"
+              >I accept the terms and conditions of the
+              <a href="" class="color-accent">Privacy Policy</a></label
+            >
+          </div>
+          <div class="button-wrapper">
+            <button type="submit" class="main-button">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
