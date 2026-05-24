@@ -126,6 +126,10 @@ address {
 }
 
 .main-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
   padding: 16px 32px;
   border: none;
   border-radius: 4px;

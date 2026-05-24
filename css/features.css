@@ -18,6 +18,10 @@
   color: #434455;
 }
 
+.block-icon {
+  fill: #2e2f42;
+}
+
 .features-list {
   display: flex;
   flex-direction: row;
