@@ -158,6 +158,7 @@
 
 .checkbox-field:checked + .label-checkbox-input .custom-checkbox {
   background-color: #404bbf;
+  fill: #f4f4fd;
 }
 
 .custom-checkbox {
@@ -169,6 +170,8 @@
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   cursor: pointer;
+  fill: transparent;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .label-checkbox-input {
@@ -180,8 +183,4 @@
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #8e8f99;
-}
-
-.form-check-icon {
-  fill: #f4f4fd;
 }
