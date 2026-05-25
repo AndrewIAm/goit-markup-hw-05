@@ -11,18 +11,19 @@
   z-index: 1000;
   opacity: 0;
   pointer-events: none;
+  visibility: hidden;
   transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-open {
   opacity: 1;
   pointer-events: auto;
+  visibility: visible;
 }
 
 .form-class {
   position: relative;
   width: 408px;
-  /* height: 584px; */
   min-height: 400px;
   border-radius: 4px;
   padding: 72px 24px 24px;
@@ -159,7 +160,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 16px;
+  margin-top: 8px;
   margin-bottom: 24px;
 }
 
