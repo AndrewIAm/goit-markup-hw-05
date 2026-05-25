@@ -69,8 +69,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 165px;
   gap: 16px;
-  padding: 16px 32px;
+  padding: 8px 24px;
   border: none;
   border-radius: 4px;
   font-weight: 500;
@@ -87,4 +88,26 @@
 .footer-subscribe-button:hover,
 .footer-subscribe-button:focus {
   background-color: #31d0aa;
+}
+
+.footer-subscribe {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.footer-email {
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  background-color: transparent;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
